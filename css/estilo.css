@@ -191,6 +191,7 @@ body {
    transform: rotate(20px , 10px);
    margin-top: 30px;
    margin-bottom: 50px;
+   background: linear-gradient(#c6ffdd,#FBD786,#f7797d);
 }
 
 .ubicacionUno h2{

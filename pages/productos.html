@@ -8,6 +8,10 @@
     <title>Mundo Max</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/estilo.css">
+      <!-- AOS -->
+
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
  
 </head>
 
@@ -17,10 +21,10 @@
         <nav>
             <ul>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="productos.html">Productos</a></li>
+                <li><a href="../pages/productos.html">Productos</a></li>
                 <li><a href="../pages/acercadenoosotros.html">Acerca de Nostros</a></li>
-                <li><a href="pages/outlet.html">Outlet</a></li>
-                <li><a href="pages/contacto.html">Contacto</a></li>
+                <li><a href="../pages/outlet.html">Outlet</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -28,7 +32,7 @@
     <!-- INDUMENTARIA DE BEBES -->
 
     <section class="productos">
-        <div  class="categoriasProductos">
+        <div  data-aos="fade-right" class="categoriasProductos">
           <h2 class="categorias">Categorias</h2>
         </div>
         <div class="kidsBebe">
@@ -132,7 +136,9 @@
             </div>
         </div>
     </footer>
-
-  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

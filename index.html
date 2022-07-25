@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./css/estilo.css">
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/5e96413f29.js" crossorigin="anonymous"></script>
+   <!-- AOS -->
+
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -58,13 +61,13 @@
 
     <!-- SEGUINOS -->
     <section class="seguinos">
-        <div class="seguinosContainer">
+        <div  class="seguinosContainer">
             <h2>SEGUINOS EN @BABYMAX</h2>
             <p>¡Encontrate con todo nuestros produsctos!</p>
             <div class="imagenBebe">
-                <img class="imagenGaleria imguno" src="img/cojunto completo.jpg" alt="bragabebe">
+                <img data-aos="flip-left"class="imagenGaleria imguno" src="img/cojunto completo.jpg" alt="bragabebe">
 
-                <img class="imagenGaleria imgtres" src="img/vestido 1.jpeg" alt="vestido">
+                <img data-aos="flip-left"   class="imagenGaleria imgtres" src="img/vestido 1.jpeg" alt="vestido">
 
             </div>
         </div>
@@ -126,6 +129,10 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
