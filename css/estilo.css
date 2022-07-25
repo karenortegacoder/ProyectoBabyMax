@@ -1,0 +1,620 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ 
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* ESTILO BODY */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}  
+
+/* HEADER */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    background-color:orange;
+    border-bottom: orange solid 2px;
+
+}
+
+.titulo {
+    color: white;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+}
+
+
+.header nav ul li {
+
+    display: inline-block;
+    list-style-type: none;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5 rem;
+    margin-left: 20px;
+    text-transform: uppercase;
+    
+}
+
+.header ul li a:hover{
+    background: #333;
+   }
+
+.imagenFondo{
+    background-image: url(../img/FOTO-FONDO2.jpeg);
+    background-size: cover;
+    height:calc(100vh - 100px);
+    margin-bottom: 30px;
+}
+
+.contenedorMx{
+    border-top: 2px solid orange;
+    border-radius: 3px;
+    height: 250px;
+    width: 500px;
+    margin: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    margin: auto;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* box shadow */
+    box-shadow: 20px 2px 10px;
+    /* Opacidad */
+    opacity: 90%;
+    max-width: 90%;
+
+
+}
+
+ .contenedorMx h2{
+    color:grey;
+    
+}
+
+ .contenedorMx h3{
+    color: #FF5733;
+    font-size: 5em;
+}
+.contenedorMx p{
+   font-weight: bold;
+   color: grey;
+}  
+
+.botonAsociar {
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: orange;
+
+}
+
+
+
+/* SEGUIMIENTO */
+
+.seguimiento{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.seguimientoRedes{
+ color: orange;
+ line-height: 1.2em;
+ margin-top: 2em;
+}
+
+.seguimiento p{
+    color: black;
+    line-height: 1.8;
+    text-align: center;
+}
+
+
+
+
+
+/* seguinos -fotos */
+.seguinos h2 {
+    color:black;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 5em;
+    margin-bottom: 1.2em;
+}
+
+.seguinos p{
+    text-align: center;
+    font-weight: bolder;
+    left: 30px;
+    margin-bottom: 2em;
+}
+
+
+.imagenGaleria{
+    width: 200px;
+    align-items: center;
+  
+}
+
+
+
+ .imagenBebe {
+    height: 200px;
+    filter: grayscale(50%);
+    
+} 
+
+
+
+
+ .imagenBebe {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    border: 2px solid orange;
+    padding: 30px;
+    border-radius: 4px;
+   justify-content: spac-between;
+   justify-content: space-around;
+   padding-left: 20rem;
+   background-color: bisque;
+   flex-wrap: nowrap;
+   height: 150px;
+   transform: rotate(20px , 10px);
+   margin-top: 30px;
+   margin-bottom: 50px;
+}
+
+.ubicacionUno h2{
+    color: orange;
+    font-size: 1.6em;
+    text-align: center;
+} 
+
+ .ubicacionUno p{
+color: 333;
+font-size: 1.8em;
+margin-left: 3px;
+text-align: center;
+margin-top: 20px; margin-bottom: 30px;
+} 
+
+.ubicacion{
+ background-color:oldlace;
+height: 130px;
+width: 100%;
+   text-align: center;
+   align-items: 1.8em;
+   border: 1px solid orange;
+}
+
+
+/* acercadenosotros */
+
+
+.mainQuienes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    padding: 20px;
+    padding-bottom: 40px;
+    }
+
+.mainQuienesContent {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+.mainQuienesContent div {
+    width: 50%;
+}
+
+.mainQuienesContent img {
+    object-fit: contain;
+    width: 40%;
+    padding: 0px 30px;
+}
+
+.mainQuienesContent div {
+    order: 2;
+}
+
+.mainQuienesContent div p {
+    padding: 10px 0px;
+}
+
+.mainQuienesContent img {
+    order: 3;
+}
+
+.mainQuienesContent iframe {
+    order: 1;
+    object-fit: contain;
+    width: 50%;
+    padding: 0px 30px;
+}
+
+
+/* PRODUCTOS */
+
+ 
+
+.categoriasProductos h2{
+    color: burlywood;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 3em;
+    line-height: 1.6em;
+    margin-bottom: 3em;
+    font-size: 2em; 
+    
+}
+
+.kidsBebe h3{
+    color: red;
+    margin-left: 30px;
+    font-size: 2.3em;
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+
+ .listas li{
+ color: brown;
+ line-height: 1.6em;
+ margin-left: 50px;
+ border: #333 solid 1px;
+ width: 80%;
+ list-style-type: none;
+ text-align: center;
+ font-size: 1.2em; 
+ 
+}
+
+ .imagenKids{
+     height: 200px;
+    display: flex;
+    justify-content: flex-start;
+   justify-content: space-evenly;
+   
+} 
+
+ .imagenKidsuno{
+    margin-top: 2em;
+    width: 200px;
+    height:300px;
+}  
+
+ .imagenKidsdos{
+  margin-top: 2em;
+    width: 200px;
+    height:300px;
+    
+}  
+/* CALZADO */
+
+
+.calzado h2{
+    color: red;
+    margin-left: 30px;
+    margin-left: 40px;
+    font-size: 2em;
+    
+    margin-top: 5em;
+    gap: 4em;
+    padding-left: 10px;
+
+}
+
+.calzado li{
+    color: brown;
+    line-height: 1.6em;
+    margin-left: 50px;
+    border: #333 solid 1px;
+    width: 80%;
+    margin-bottom: 30px;
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.2em;
+} 
+
+ .imagenCalzado{
+    height: 200px;
+    display: flex;
+    justify-content: center
+}
+
+.imagenCalzadouno{
+    
+    width: 200px;
+    height:300px;  
+}
+ACCESORIOS 
+
+
+.accesoriosB h2 {
+    color: red ;
+    margin-left: 30px;
+    line-height: 1.6em;
+    
+    margin-top: 4em; 
+    margin-left: 40em;
+    padding-left: 10px;
+} 
+
+ .accesoriosBebe li{
+    color: brown;
+    margin-left: 50px;
+    border: #333 solid 1px;
+    width: 80%;
+    margin-bottom: 30px;
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 2em;
+    line-height: 1.6em;
+} 
+
+
+.imagenAccesorios{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 800px;
+    
+}
+/* OUTLET */
+
+.mejoresPrecios h2{
+    color: coral;
+    font-size: 2em;
+    padding-left: 10x;
+    margin-left: 15px;
+  
+}
+
+.mejoresPrecios ul{
+    color: black;
+    border: #333 solid 1px;
+    font-size: 1.6em;
+    margin-left: 70px;
+    line-height: 1.6em;
+    width: 150px;
+    text-align: center;
+    margin-top: 3em;
+    background-color: beige;
+    
+}
+
+  .outlet{
+   width: 300px;
+    flex-direction: row;
+ flex-wrap: wrap;
+   display: flex;
+   flex-direction: row-reverse;
+} 
+
+.outletuno{
+    margin-top: 2em;
+    width: 300px;
+    height:200px;
+} 
+
+
+ .outletodos{
+    margin-top: 2em;
+    width: 300px;
+    height:200px;
+}
+
+.outlettres{
+    margin-top: 2em;
+    width: 300px;
+    height:200px;;
+} 
+
+.outletcuatro{
+    margin-top: 2em;
+    width: 300px;
+    height:200px;
+} 
+
+
+.outletcinco{
+    margin-top: 2em;
+    width: 300px;
+    height:200px;
+} 
+
+.outletseis{
+    margin-top: 2em;
+    width: 300px;
+    height:200px;
+} 
+
+
+ /* CONTACTO */
+
+
+.contacto{
+    background-color:#97D9E1 ;
+    flex-direction: row;
+    width: 400px;
+    padding: 30px;
+    
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    margin-bottom: 40px;
+    justify-content: center;
+    flex: auto;
+   margin-left: 10em;
+   
+}
+
+.contacto h1{
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.control{
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid #1f53c5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.boton{
+    width: 100%;
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 4px;
+    border:none;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(to left top, #C87E6F,#fffde4);
+    font-size: 20px;
+}
+
+.boton:hover{
+    cursor:pointer;
+    transform: translateY(-3px);
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.boton:active{
+    transform:translateY(3px);
+}
+
+.control:focus{
+    height: 60px;
+} 
+
+
+
+/* FOOTER */
+.footer{
+    background-color: orange;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+ 
+  
+}
+
+ .footerB{
+    display: flex;
+    justify-content: space-evenly;
+  
+    
+    
+}
+
+
+.colum1{
+    max-width: 400px;
+    
+} 
+
+ .colum1 h3{
+    font-size: 22px;
+    color: black;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color:white;
+    margin-top: 20px;
+  
+    
+} 
+
+ .colum2{
+    max-width: 400px;
+} 
+
+ .colum2 h3{
+  font-size: 22px;
+  color: black;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+} 
+
+.colum3{
+    max-width: 400px;
+ } 
+
+ .colum3 h3{
+    font-size: 22px;
+    color: black;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-left: 30px;
+    margin-top: 10px;
+} 
